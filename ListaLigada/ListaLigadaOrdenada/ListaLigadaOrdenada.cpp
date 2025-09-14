@@ -133,8 +133,6 @@ void inserirElemento()
         anterior->prox = novo;
         novo->prox = atual;
     }
-
-    cout << "Elemento inserido!" << endl;
 }
 
 void buscarElemento()
